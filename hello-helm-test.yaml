@@ -6,7 +6,7 @@ metadata:
     - resources-finalizer.argocd.argoproj.io/foreground
   annotations:
     codefresh.io/app-group: default
-    codefresh.io/product: hello-containers
+    codefresh.io/product: hello-helm
 spec:
   project: default
   destination:
