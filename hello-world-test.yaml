@@ -4,6 +4,8 @@ metadata:
   name: hello-world-test
   finalizers:
     - resources-finalizer.argocd.argoproj.io/foreground
+  annotations:
+    codefresh.io/product: hello-world
 spec:
   project: default
   destination:
