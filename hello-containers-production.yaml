@@ -4,6 +4,8 @@ metadata:
   name: hello-containers-production
   finalizers:
     - resources-finalizer.argocd.argoproj.io/foreground
+  annotations:
+    codefresh.io/product: hello-containers
 spec:
   project: default
   destination:
